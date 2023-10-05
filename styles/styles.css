@@ -19,15 +19,24 @@ body {
 
 header {  
   background-color: #1f2937;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+}
+
+nav {
+  max-width: 1000px;
+  padding: 0.5rem 2rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
-  padding: 0.2rem 3rem;
-  justify-content: center;
-  align-items: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+  align-items: baseline;
 }
 
 a {
@@ -37,6 +46,9 @@ a {
 
 .header-logo {
   margin-right: auto;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9faf8;
 }
 
 .hero-container {
@@ -44,14 +56,29 @@ a {
   /* flex-wrap: wrap; */
   color: white;
   background-color: #1f2937;
-  padding: 9rem;
+  padding: 6rem 2rem;
+  margin: 0;
   gap: 2rem;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  /* max-width: 1000px; */
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .container {
-  max-width: 400px;
+  max-width: 500px;
+  min-height: 300px;
   display: flex;
 }
 
@@ -66,6 +93,7 @@ a {
   padding: 5rem;
   align-items: center;
   justify-content: center;
+  
 }
 
 button {
