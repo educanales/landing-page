@@ -117,10 +117,7 @@ button {
 
 .box-section {
   text-align: center;
-  margin-top: 2rem;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
+  margin: 2rem 0 7rem;
 }
 
 .box-section h2 {
@@ -134,7 +131,6 @@ button {
   justify-content: center;
   gap: 3rem;
   margin-top: 2rem;
-
 }
 
 .boxes {
@@ -150,10 +146,38 @@ button {
   height: 180px;
   border: 5px solid #3882f6;
   border-radius: 15px;
-
 }
 
 .boxes p {
   color: #6d747d;
   font-size: 18px;
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 8rem;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
 }
