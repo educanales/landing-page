@@ -17,6 +17,8 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER SECTION */
+
 header {  
   background-color: #1f2937;
   /* display: flex; */
@@ -43,6 +45,8 @@ a {
   text-decoration: none;
   color: white;
 }
+
+/* HERO SECTION */
 
 .header-logo {
   margin-right: auto;
@@ -107,4 +111,49 @@ button {
   border-radius: 5px;
   padding: 0.5rem 1.5rem;
   flex-grow: 0;
+}
+
+/* BOXES SECTION */
+
+.box-section {
+  text-align: center;
+  margin-top: 2rem;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.box-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+
+}
+
+.boxes {
+  max-width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box {
+  width: 180px;
+  height: 180px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+
+}
+
+.boxes p {
+  color: #6d747d;
+  font-size: 18px;
 }
